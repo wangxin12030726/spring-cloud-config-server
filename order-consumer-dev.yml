@@ -12,7 +12,7 @@ eureka:
     prefer-ip-address: true
   client:
     service-url:
-      defaultZone: http://wangxin:wangxin@localhost:7001/eureka/,http://wangxin:wangxin@localhost:7002/eureka/
+      defaultZone: http://wangxin:wangxin@localhost:7003/eureka/,http://wangxin:wangxin@localhost:7004/eureka/
     fetch-registry: true
     register-with-eureka: true
 feign:
