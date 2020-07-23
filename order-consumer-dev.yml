@@ -7,6 +7,10 @@ spring:
 #    user:
 #      name: wangxin
 #      password: wangxin
+  boot:
+    admin:
+      client:
+        url: 'http://localhost:6677'
 eureka:
   instance:
     prefer-ip-address: true
